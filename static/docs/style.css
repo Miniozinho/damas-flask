@@ -1,0 +1,32 @@
+.cell{
+    height: 35px;
+    width: 35px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+body{
+    text-align: center;
+}
+#game{
+    display: inline;
+}
+
+#botao1{
+    width: 40%;
+    background-color: black;
+    color:white;
+    height: 100vh;
+    font-size:40px;
+}
+
+
+#botao2{
+    width: 40%;
+    background-color: red;
+    height: 100vh;
+    font-size:40px;
+}
+
+#selecionarcor{
+}

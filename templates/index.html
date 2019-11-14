@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+<script src="static/docs/java.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/docs/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"  >
+    <title>Damas</title>
+</head>
+<body onload="init()">
+<div id="selecionarcor">
+    <button id="botao1" onclick="black()">BLACK</button>
+    <button id="botao2" onclick="red()">RED</button>
+</div>
+<div id="game">
+    <canvas id="tabuleiro" width="500px" height="500px" style="background: #fff; margin:0px"></canvas>
+</div>
+</body>
+</html>
